@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>9a1787d8-36a8-45ea-8196-ad5498d099d8</ProjectGuid>
+    <ProjectGuid>{366FAC38-7D47-4B49-885A-E538970D5F4B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BookMe.BLL</RootNamespace>
@@ -40,8 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Interface\IUserService.cs" />
+    <Compile Include="Services\UserService.cs" />
+    <Compile Include="Interface\ICrudService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BookMe.DAL\BookMe.DAL.csproj">
+      <Project>{D5FF8C73-561F-4CB1-BBED-7A5B0BB5CFFF}</Project>
+      <Name>BookMe.DAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

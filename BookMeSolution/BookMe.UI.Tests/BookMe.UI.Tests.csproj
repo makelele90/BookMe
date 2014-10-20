@@ -6,7 +6,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{F215B4A8-C4C6-4E56-8DFE-EC2FFA15EDC1}</ProjectGuid>
+    <ProjectGuid>{88130437-B861-4CCA-BAAE-AA01FC6A86A2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BookMe.UI.Tests</RootNamespace>
@@ -102,6 +102,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BookMe.UI\BookMe.UI.csproj">
+      <Project>{0465422C-36A4-4B10-A686-206AB1D1331E}</Project>
+      <Name>BookMe.UI</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

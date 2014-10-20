@@ -1,0 +1,4 @@
+C:\BookMe\BookMeSolution\BookMe.DAL\bin\Debug\BookMe.DAL.dll
+C:\BookMe\BookMeSolution\BookMe.DAL\bin\Debug\BookMe.DAL.pdb
+C:\BookMe\BookMeSolution\BookMe.DAL\obj\Debug\BookMe.DAL.dll
+C:\BookMe\BookMeSolution\BookMe.DAL\obj\Debug\BookMe.DAL.pdb
