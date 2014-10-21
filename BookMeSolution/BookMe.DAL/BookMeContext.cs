@@ -3,13 +3,13 @@ using BookMe.DAL;
 
 namespace BookMe.DAL
 {
-    public class BlogDataContext:DbContext
+    public class BookMeContext:DbContext
     {
-        public BlogDataContext():base("BlogConnectionString")
+        public BookMeContext():base("BlogConnectionString")
         {
            // Database.SetInitializer<BlogDataContext>(new BlogDbInitializer());
          //Database.SetInitializer(new MigrateDatabaseToLatestVersion<BlogDataContext, Configuration>("BlogConnectionString"));
-          Database.SetInitializer<BlogDataContext>(null);
+          Database.SetInitializer<BookMeContext>(null);
           
         }
       

@@ -4,9 +4,9 @@ using System.Data.Entity;
 
 namespace BookMe.DAL
 {
-    public class BlogDbInitializer : DropCreateDatabaseAlways<BlogDataContext>
+    public class BlogDbInitializer : DropCreateDatabaseAlways<BookMeContext>
     {
-        protected override void Seed(BlogDataContext context)
+        protected override void Seed(BookMeContext context)
         {
             var users = new List<User> { 
              new User(){FirstName="francis",LastName="tchatchoua",JoinDate=DateTime.Today,LastLogin=DateTime.Today},

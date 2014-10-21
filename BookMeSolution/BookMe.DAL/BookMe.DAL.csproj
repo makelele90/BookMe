@@ -47,7 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BlogDataContext.cs" />
+    <Compile Include="BookMeContext.cs" />
     <Compile Include="BlogDbInitializer.cs" />
     <Compile Include="Category.cs" />
     <Compile Include="Repository\BaseRepository.cs" />
