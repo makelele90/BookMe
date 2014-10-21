@@ -21,3 +21,7 @@ C:\BookMe\BookMeSolution\BookMe.BLL.Test\bin\Debug\System.Runtime.xml
 C:\BookMe\BookMeSolution\BookMe.BLL.Test\bin\Debug\System.Threading.Tasks.xml
 C:\BookMe\BookMeSolution\BookMe.BLL.Test\obj\Debug\BookMe.BLL.Test.dll
 C:\BookMe\BookMeSolution\BookMe.BLL.Test\obj\Debug\BookMe.BLL.Test.pdb
+C:\BookMe\BookMeSolution\BookMe.BLL.Test\bin\Debug\BookMe.DAL.dll
+C:\BookMe\BookMeSolution\BookMe.BLL.Test\bin\Debug\EntityFramework.dll
+C:\BookMe\BookMeSolution\BookMe.BLL.Test\bin\Debug\BookMe.DAL.pdb
+C:\BookMe\BookMeSolution\BookMe.BLL.Test\bin\Debug\EntityFramework.xml
