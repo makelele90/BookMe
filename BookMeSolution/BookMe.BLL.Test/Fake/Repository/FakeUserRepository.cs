@@ -10,18 +10,18 @@ namespace BookMe.BLL.Test.Fake.Repository
 {
   public class FakeUserRepository:IRepository<User>
   {
-    private readonly IQueryable<User> _users=new List<User>()
+    private readonly IQueryable<User> _users = new List<User>()
       {
-        new User(){FirstName = "francis",LastName = "tchatchoua",Password = "123456",UserName = "admin"},
-        new User(){FirstName = "tamo",LastName = "gaspar",Password = "123456",UserName = "patdiamant"},
-        new User(){FirstName = "lion",LastName = "domou",Password = "123456",UserName = "didiversace"},
-        new User(){FirstName = "franck",LastName = "capi",Password = "123456",UserName = "catlife"},
+        new User() {FirstName = "francis", LastName = "tchatchoua", Password = "123456", UserName = "admin"},
+        new User() {FirstName = "tamo", LastName = "gaspar", Password = "123456", UserName = "patdiamant"},
+        new User() {FirstName = "lion", LastName = "domou", Password = "123456", UserName = "didiversace"},
+        new User() {FirstName = "franck", LastName = "capi", Password = "123456", UserName = "catlife"},
 
       }.AsQueryable();
 
-    public IQueryable<User> FindAll()
+    public User[] FindAll()
     {
-      return _users;
+      return _users.ToArray();
     }
 
     public User Single(Expression<Func<User, bool>> predicate)
@@ -29,9 +29,9 @@ namespace BookMe.BLL.Test.Fake.Repository
       return _users.SingleOrDefault(predicate);
     }
 
-    public IQueryable<User> Find(Expression<Func<User, bool>> predicate)
+    public User[] Find(Expression<Func<User, bool>> predicate)
     {
-      return _users.Where(predicate);
+      return _users.Where(predicate).ToArray();
     }
 
     public void Add(User entity)

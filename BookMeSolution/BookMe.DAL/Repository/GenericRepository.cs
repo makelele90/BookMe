@@ -11,17 +11,17 @@ namespace BookMe.DAL.Repository
     where T:class 
   {
 
-    public IQueryable<T> FindAll()
+    public T[] FindAll()
     {
-        return Context.Set<T>();
+        return Context.Set<T>().ToArray();
     }
     public virtual T Single(Expression<Func<T, bool>> predicate)
     {
         return Context.Set<T>().Where(predicate).FirstOrDefault();
     }
-    public IQueryable<T> Find(Expression<Func<T, bool>> predicate)
+    public T[] Find(Expression<Func<T, bool>> predicate)
     {
-        return Context.Set<T>().Where(predicate);
+        return Context.Set<T>().Where(predicate).ToArray();
     }
 
     public void Add(T entity)
