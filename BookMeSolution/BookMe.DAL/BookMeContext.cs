@@ -5,7 +5,8 @@ namespace BookMe.DAL
 {
     public class BookMeContext:DbContext
     {
-        public BookMeContext():base("BlogConnectionString")
+      public BookMeContext()
+        : base("BookMeConnectionString")
         {
            // Database.SetInitializer<BlogDataContext>(new BlogDbInitializer());
          //Database.SetInitializer(new MigrateDatabaseToLatestVersion<BlogDataContext, Configuration>("BlogConnectionString"));
