@@ -2,3 +2,9 @@ C:\BookMe\BookMeSolution\BookMe.DAL\bin\Debug\BookMe.DAL.dll
 C:\BookMe\BookMeSolution\BookMe.DAL\bin\Debug\BookMe.DAL.pdb
 C:\BookMe\BookMeSolution\BookMe.DAL\obj\Debug\BookMe.DAL.dll
 C:\BookMe\BookMeSolution\BookMe.DAL\obj\Debug\BookMe.DAL.pdb
+C:\BookMe\BookMeSolution\BookMe.DAL\obj\Debug\BookMe.DAL.csprojResolveAssemblyReference.cache
+C:\BookMe\BookMeSolution\BookMe.DAL\bin\Debug\BookMe.DAL.dll.config
+C:\BookMe\BookMeSolution\BookMe.DAL\bin\Debug\EntityFramework.dll
+C:\BookMe\BookMeSolution\BookMe.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\BookMe\BookMeSolution\BookMe.DAL\bin\Debug\EntityFramework.xml
+C:\BookMe\BookMeSolution\BookMe.DAL\bin\Debug\EntityFramework.SqlServer.xml

@@ -5,3 +5,5 @@ C:\BookMe\BookMeSolution\BookMe.BLL\bin\Debug\BookMe.DAL.pdb
 C:\BookMe\BookMeSolution\BookMe.BLL\obj\Debug\BookMe.BLL.csprojResolveAssemblyReference.cache
 C:\BookMe\BookMeSolution\BookMe.BLL\obj\Debug\BookMe.BLL.dll
 C:\BookMe\BookMeSolution\BookMe.BLL\obj\Debug\BookMe.BLL.pdb
+C:\BookMe\BookMeSolution\BookMe.BLL\bin\Debug\EntityFramework.dll
+C:\BookMe\BookMeSolution\BookMe.BLL\bin\Debug\EntityFramework.xml
